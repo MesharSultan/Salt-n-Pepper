@@ -1,14 +1,14 @@
-@font-face{
+@font-face {
     font-family: apercu;
     src: url(./fonts/Apercu-1/Apercu\ Light.otf);
 }
 
-@font-face{
+@font-face {
     font-family: futurak;
     src: url(./fonts/futurak.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: butler;
     src: url(./fonts/butler-cufonfonts/Butler_Regular.otf);
 }
@@ -16,29 +16,32 @@
 
 
 
-*{ 
-    margin:0;
-    padding:0; 
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     color: #ffffff;
     background-color: #000000;
 
-} 
+}
 
 /* HEADER START */
 
-.header{
+.header {
     /* border: 5px solid yellow; */
-    background-color:#000000;
+    background-color: #000000;
 }
 
-.navbar-logo{
+.navbar-logo {
     padding-left: 13%;
     padding-right: 15%;
 }
 
+ul {
+    list-style: none;
+}
 
-ul li a{ 
+ul li a {
     text-decoration: none;
     padding: 17px 36px 0px 0px;
     position: relative;
@@ -49,11 +52,11 @@ ul li a{
 }
 
 
-ul li{
+ul li {
     display: inline-block;
 }
 
-.get-franchise{
+.get-franchise {
     border: 1px solid #fff;
     border-radius: 35px;
     padding: 18px;
@@ -62,7 +65,7 @@ ul li{
     font-weight: 400;
 }
 
-.get-order{
+.get-order {
     background-color: red;
     border-radius: 35px;
     padding: 18px;
@@ -71,7 +74,7 @@ ul li{
     font-weight: 400;
 }
 
-.fa-solid{
+.fa-solid {
     background-color: #fff;
     color: #dc3545;
     padding: 6px 7px;
@@ -131,12 +134,12 @@ ul li{
 /*  SLIDER END  */
 
 /* MID SECTION START */
-.welcome-container{
+.welcome-container {
     background-color: #000000;
     text-align: center;
 }
 
-.welcome-container h2{
+.welcome-container h2 {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -147,7 +150,7 @@ ul li{
     margin-bottom: 8px;
 }
 
-.mid-text{
+.mid-text {
     font-family: futurak;
     font-style: normal;
     font-weight: 400;
@@ -156,7 +159,7 @@ ul li{
     color: #FFFFFF;
 }
 
-.welcome-container p{
+.welcome-container p {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -168,20 +171,20 @@ ul li{
 }
 
 
-.welcome-box img{
+.welcome-box img {
     background-color: #ffffff;
 }
 
-.boxes{
-    width:255px ;
-    height:150px ;
+.boxes {
+    width: 255px;
+    height: 150px;
     padding: 20px;
     margin: 15px;
     border-radius: 3px;
     cursor: pointer;
 }
 
-.welcome-btn span{
+.welcome-btn span {
     display: inline-block;
     width: 174px;
     height: 50px;
@@ -206,7 +209,7 @@ ul li{
 
 
 
-.second-container h2{
+.second-container h2 {
     text-align: center;
     margin-bottom: 8px;
     font-family: butler;
@@ -217,7 +220,7 @@ ul li{
     margin-bottom: 8px;
 }
 
-.second-container p{
+.second-container p {
     text-align: center;
     font-family: apercu;
     font-style: normal;
@@ -229,7 +232,7 @@ ul li{
     margin-bottom: 48px;
 }
 
-.capital{
+.capital {
     text-transform: uppercase;
     font-family: apercu;
     font-style: normal;
@@ -242,13 +245,13 @@ ul li{
     display: block;
 }
 
-.left-row{
+.left-row {
     position: relative;
     left: 16%;
     display: inline-block;
 }
 
-.left-row h3{
+.left-row h3 {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -258,7 +261,7 @@ ul li{
     margin-bottom: 24px;
 }
 
-.left-text{
+.left-text {
     font-family: futurak;
     font-style: normal;
     font-weight: 400;
@@ -268,7 +271,7 @@ ul li{
     color: #FFFFFF;
 }
 
-.left-row p{
+.left-row p {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -279,7 +282,7 @@ ul li{
     margin-bottom: 10px;
 }
 
-.left-row p a{
+.left-row p a {
     text-decoration: none;
     font-family: apercu;
     font-style: normal;
@@ -290,8 +293,9 @@ ul li{
     color: rgba(255, 255, 255, 0.7);
 }
 
-.get-btn{
-    border: 1px solid rgba(255, 255, 255, 0.3);;
+.get-btn {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    ;
     text-decoration: none;
     border-radius: 35px;
     padding: 18px;
@@ -308,11 +312,11 @@ ul li{
 /* THIRD SECTION START */
 
 
-.third-container{
+.third-container {
     margin-top: 10%;
 }
 
-.third-container h2{
+.third-container h2 {
     text-align: center;
     margin-bottom: 8px;
     font-family: butler;
@@ -323,7 +327,7 @@ ul li{
     margin-bottom: 8px;
 }
 
-.third-mid-text{
+.third-mid-text {
     font-family: futurak;
     font-style: normal;
     font-weight: 400;
@@ -332,18 +336,18 @@ ul li{
     color: #FFFFFF;
 }
 
-.third-boxes{
+.third-boxes {
     text-align: center;
     /* margin-top: 5%; */
 }
 
-.t-box{
+.t-box {
     display: inline-block;
     padding: 15px;
 
 }
 
-.t-box small{
+.t-box small {
     font-family: apercu;
     font-style: normal;
     font-weight: 500;
@@ -358,7 +362,7 @@ ul li{
     margin-top: 24px;
 }
 
-.t-box h3{
+.t-box h3 {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -369,7 +373,7 @@ ul li{
     margin-bottom: 18px;
 }
 
-.t-box-txt{
+.t-box-txt {
     font-family: futurak;
     font-style: normal;
     font-weight: 400;
@@ -379,7 +383,7 @@ ul li{
     color: #FFFFFF;
 }
 
-.t-box p{
+.t-box p {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -390,7 +394,7 @@ ul li{
     margin-bottom: 12px;
 }
 
-.t-box p a{
+.t-box p a {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -413,11 +417,11 @@ ul li{
 
 /* FOURTH SECTION START  */
 
-.village-franchise{
+.village-franchise {
     margin-top: 8%;
 }
 
-.village-franchise h2{
+.village-franchise h2 {
     text-align: center;
     margin-bottom: 8px;
     font-family: butler;
@@ -428,7 +432,7 @@ ul li{
     margin-bottom: 8px;
 }
 
-.village-mid-text{
+.village-mid-text {
     font-family: futurak;
     font-style: normal;
     font-weight: 400;
@@ -441,13 +445,13 @@ ul li{
     padding-top: 1%;
 }
 
-.row-img{
+.row-img {
     display: inline-block;
     padding-left: 5%;
 
 }
 
-.row-content{
+.row-content {
     /* border: 1px solid orange; */
     display: inline-block;
     padding: 2%;
@@ -455,7 +459,7 @@ ul li{
     bottom: 111px;
 }
 
-.row-content b{
+.row-content b {
     font-family: apercu;
     font-style: normal;
     font-weight: 500;
@@ -468,7 +472,7 @@ ul li{
     display: block;
 }
 
-.row-content h3{
+.row-content h3 {
     font-family: apercu;
     font-style: normal;
     font-weight: 400;
@@ -478,7 +482,7 @@ ul li{
     margin-bottom: 24px;
 }
 
-.village-txt-bold{
+.village-txt-bold {
     font-family: futurak;
     font-style: normal;
     font-weight: 400;
@@ -488,8 +492,8 @@ ul li{
     color: #FFFFFF;
 }
 
-.row-content p{
-    font-family: Apercu;
+.row-content p {
+    font-family: apercu;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -500,8 +504,8 @@ ul li{
 }
 
 
-.row-content p a{
-    font-family: Apercu;
+.row-content p a {
+    font-family: apercu;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -512,31 +516,31 @@ ul li{
 }
 
 
- .row-content a {
+.row-content a {
     text-decoration: none;
- }
+}
 
- .row-content a span.get-order{
+.row-content a span.get-order {
     background-color: #28a745;
 
- }
+}
 
- .row-content a span.get-order i.fa-solid.fa-arrow-right{
+.row-content a span.get-order i.fa-solid.fa-arrow-right {
     background-color: #fff;
     color: #28a745;
 
- }
+}
 
- /* FOURTH SECTION END  */
+/* FOURTH SECTION END  */
 
 
 
- /* FIFTH SECTION START */
- .express-franchise{
+/* FIFTH SECTION START */
+.express-franchise {
     margin-top: 8%;
- }
+}
 
- .express-franchise h2{
+.express-franchise h2 {
     text-align: center;
     font-family: butler;
     font-style: normal;
@@ -544,30 +548,30 @@ ul li{
     line-height: 60px;
     color: #FFFFFF;
     margin-bottom: 8px;
- }
+}
 
- .express-mid-text{
+.express-mid-text {
     font-family: futurak;
     font-style: normal;
     font-weight: 400;
     font-size: 52px;
     line-height: 62px;
     color: #FFFFFF;
- }
+}
 
- .express-franchise h2 small{
+.express-franchise h2 small {
     font-style: normal;
     font-size: 26px;
     line-height: 31px;
     color: #FFFFFF;
- }
+}
 
- .map-boxes{
+.map-boxes {
     padding-top: 28px;
     text-align: center;
- }
+}
 
- .e-box{
+.e-box {
     width: 360px;
     height: 250px;
     background: #FFFFFF;
@@ -577,17 +581,17 @@ ul li{
     margin: 1%;
     margin-bottom: 32px;
     display: inline-block;
- }
+}
 
- .e-box img{
+.e-box img {
     background: #FFFFFF;
     position: relative;
     left: 20%;
     top: 5%;
- }
+}
 
- .e-box small{
-    font-family: Apercu;
+.e-box small {
+    font-family: apercu;
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
@@ -601,9 +605,9 @@ ul li{
     position: relative;
     top: 23%;
     right: 10%;
- }
+}
 
- .e-box h4{
+.e-box h4 {
     font-family: 'FuturaBlack BT';
     font-style: normal;
     font-weight: 400;
@@ -612,18 +616,18 @@ ul li{
     text-align: center;
     background: #FFFFFF;
     color: #000000;
- }
+}
 
- .e-box h4 span.logo-text-hold-second{
+.e-box h4 span.logo-text-hold-second {
     font-weight: 600;
     margin-right: 8px;
     font-size: 24px;
     color: #000000;
     background: #FFFFFF;
 
- }
+}
 
- .e-box p{
+.e-box p {
     font-family: 'FuturaBlack BT';
     font-style: normal;
     font-weight: 400;
@@ -632,19 +636,19 @@ ul li{
     text-align: center;
     background: #FFFFFF;
     color: #000000;
- }
+}
 
- /* FIFTH SECTION END */
+/* FIFTH SECTION END */
 
 
- /* SIX SECTION START */
+/* SIX SECTION START */
 
- .six-container{
+.six-container {
     margin-top: 2%;
 
- }
+}
 
- .six-container h3{
+.six-container h3 {
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-family: butler;
@@ -653,21 +657,227 @@ ul li{
     font-size: 32px;
     line-height: 50px;
     text-align: center;
- }
+}
 
- .food-images{
+.food-images {
     margin-top: 2%;
     margin-left: 11%;
- }
+}
 
- .food-images img{
+.food-images img {
     width: 240px;
     cursor: pointer;
     padding: 8px;
- }
+}
 
-  /* SIX SECTION END */
+/* SIX SECTION END */
+
+/* FOOTER START  */
+
+.footer {
+    /* margin-top: 5%; */
+
+}
+
+.footer-content {
+    position: relative;
+    top: 150px;
+}
+
+.logo-box {
+    padding-left: 11%;
+}
+
+.logo-box ul {
+    list-style: none;
+
+}
+
+.logo-box ul li p {
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 1019px;
+    /* text-align: left; */
+    font-family: apercu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+ul.info-usefull-links li {
+    padding-top: 50px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.site-links {
+    position: relative;
+    bottom: 398px;
+    left: 39%;
+    display: inline-block;
+}
+
+.site-links ul li h3 {
+    margin-bottom: 0px !important;
+    font-family: butler;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.site-links ul li {
+    cursor: pointer;
+    padding: 8px;
+    display: block;
+    font-family: apercu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
 
 
 
- 
+.contact-us {
+    position: relative;
+    bottom: 328px;
+    left: 48%;
+    display: inline-block;
+}
+
+
+.contact-us ul li h3 {
+    margin-bottom: 0px !important;
+    font-family: butler;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.contact-us ul li {
+    cursor: pointer;
+    padding: 8px;
+    display: block;
+    font-family: apercu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+.follow-us {
+    position: relative;
+    bottom: 420px;
+    left: 50%;
+    display: inline-block;
+}
+
+.follow-us ul li h3 {
+    margin-bottom: 0px !important;
+    font-family: butler;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.follow-us ul li {
+    cursor: pointer;
+    padding: 8px;
+    display: block;
+}
+
+.follow-us ul li a {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    position: relative;
+    top: -15px;
+    text-decoration: none;
+    border-radius: 50px
+}
+
+.follow-us ul li a i {
+    color: #ffffff;
+    font-size: 17px;
+    background: #ED1C24;
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    left: 18px;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+}
+
+
+.icons {
+    position: relative;
+    top: 45px;
+}
+
+.app-img {
+    position: relative;
+    top: 45px;
+}
+
+.play-img {
+    position: relative;
+    top: 45px;
+}
+
+
+
+/* FOOTER END  */
+
+
+
+.end-sec {
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 5px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+}
+
+.end-rit {
+    font-family: apercu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    right: -12%;
+}
+
+.end-left {
+    font-family: apercu;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    left: 57%;
+}
